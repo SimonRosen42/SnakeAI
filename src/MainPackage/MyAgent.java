@@ -23,7 +23,7 @@ public class MyAgent extends DevelopmentAgent {
     private String mySnakeInput, appleInput;
     private String eSnakesInput[]; 
     private ArrayList<Node> path;
-    private AStar aStar; 
+    private AStar aStar;
     private Node startNode, goalNode; 
     private Point lastAppleLoc; //last location of apple in previous timestep. Used to determine if apple was eaten/dissapeared.
     
